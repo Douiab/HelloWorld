@@ -29,4 +29,20 @@
       </plugin>
     </plugins>
   </build>
+  <repositories>
+        <repository>
+            <id>myMavenRepo.read</id>
+            <url>https://mymavenrepo.com/repo/JApXOFE1UpSeS7gCULdC/</url>
+        </repository>
+    </repositories>
+    <distributionManagement>
+        <repository>
+            <id>myMavenRepo.write</id>
+            <url>https://mymavenrepo.com/repo/fP4fktxTk4tCUzxbwRey/</url>
+        </repository>
+        <snapshotRepository>
+            <id>myMavenRepo</id>
+            <url>https://mymavenrepo.com/repo/fP4fktxTk4tCUzxbwRey/</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
